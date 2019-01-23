@@ -1,18 +1,18 @@
-# simple-python-pyinstaller-app
+#simple-python-pyinstaller-app
 
-This repository is for the
-[Build a Python app with PyInstaller](https://jenkins.io/doc/tutorials/build-a-python-app-with-pyinstaller/)
-tutorial in the [Jenkins User Documentation](https://jenkins.io/doc/).
+这个存储库是为了
+[使用PyInstaller构建Python应用程序]（https://jenkins.io/doc/tutorials/build-a-python-app-with-pyinstaller/）
+[Jenkins用户文档]（https://jenkins.io/doc/）中的教程。
 
-The repository contains a simple Python application which is a command line tool "add2vals" that outputs the addition of two values. If at least one of the
-values is a string, "add2vals" treats both values as a string and instead
-concatenates the values. The "add2" function in the "calc" library (which
-"add2vals" imports) is accompanied by a set of unit tests. These are tested with pytest to check that this function works as expected and the results are saved
-to a JUnit XML report.
+存储库包含一个简单的Python应用程序，它是一个命令行工具“add2vals”，它输出两个值的相加。如果至少有一个
+values是一个字符串，“add2vals”将这两个值视为字符串而是
+连接值。 “calc”库中的“add2”函数（其中
+“add2vals”导入）伴随着一组单元测试。这些是使用pytest测试的，以检查此功能是否按预期工作并保存结果
+到JUnit XML报告。
 
-The delivery of the "add2vals" tool through PyInstaller converts this tool into
-a standalone executable file for Linux, which you can download through Jenkins
-and execute at the command line on Linux machines without Python.
+通过PyInstaller交付“add2vals”工具将此工具转换为
+Linux的独立可执行文件，可以通过Jenkins下载
+并在没有Python的Linux机器上的命令行执行。
 
-The `jenkins` directory contains an example of the `Jenkinsfile` (i.e. Pipeline)
-you'll be creating yourself during the tutorial.
+`jenkins`目录包含`Jenkinsfile`的示例（即Pipeline）
+你将在本教程中创建自己。
